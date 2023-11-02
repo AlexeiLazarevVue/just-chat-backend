@@ -1,4 +1,5 @@
-export class CreateUserDto {
-    readonly username : string
-    readonly password : string
+export class CreateMessageDto {
+    readonly content : string
+    readonly userId : number
+    readonly username: string
 }

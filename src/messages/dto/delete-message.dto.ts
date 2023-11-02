@@ -1,5 +1,3 @@
-export class CreateMessageDto {
-    readonly content : string
+export class DeleteMessageDto {
     readonly userId : number
-    readonly username: string
 }
